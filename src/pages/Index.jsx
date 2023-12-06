@@ -1,7 +1,12 @@
-import React from 'react'
+import Players from "../Components/Players";
 
-export default function Index() {
+function Index() {
   return (
-    <div>Index</div>
-  )
+    <div className="Index">
+      <h2>Index</h2>
+      <Players />
+    </div>
+  );
 }
+
+export default Index;

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Bookmark({player }) {
+function Player({ player }) {
   return (
     <tr>
       <td>
@@ -22,4 +22,4 @@ function Bookmark({player }) {
   );
 };
 
-export default Bookmark;
+export default Player;

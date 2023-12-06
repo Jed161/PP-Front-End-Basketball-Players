@@ -81,7 +81,7 @@ function PlayerNewForm() {
           onChange={handleTextChange}
           placeholder="team name"
         />
-        <label htmlFor="rookieOfTheYear">Description:</label>
+        <label htmlFor="rookieOfTheYear">Rookie Of The Year:</label>
         <textarea
           id="rookieOfTheYear"
           type="checkbox"

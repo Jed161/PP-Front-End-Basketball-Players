@@ -1,7 +1,12 @@
-import React from 'react'
+import PlayerNewForm from "../Components/PlayerNewForm";
 
-export default function New() {
+function New() {
   return (
-    <div>New</div>
-  )
+    <div className="New">
+      <h2>New</h2>
+      <PlayerNewForm />
+    </div>
+  );
 }
+
+export default New;

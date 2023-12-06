@@ -1,7 +1,12 @@
-import React from 'react'
+import PlayerDetails from "../Components/PlayerDetails";
 
-export default function Show() {
+function Show() {
   return (
-    <div>Show</div>
-  )
+    <div className="Show">
+      <h2>Show</h2>
+      <PlayerDetails />
+    </div>
+  );
 }
+
+export default Show;
