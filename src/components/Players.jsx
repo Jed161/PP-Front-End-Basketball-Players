@@ -5,6 +5,7 @@ const API = import.meta.env.VITE_API_URL;
 
 function Players() {
   const [players, setPlayers] = useState([]);
+
   useEffect(() => {
     fetch(`${API}/players`)
       .then(response => response.json())
@@ -16,6 +17,7 @@ function Players() {
         console.log(error);
       });
   }, []);
+  
   return (
     <div className="Players">
       <section>

@@ -85,7 +85,7 @@ function PlayerNewForm() {
         <textarea
           id="rookieOfTheYear"
           type="checkbox"
-          value={bookmark.description}
+          value={player.rookieOfTheYear}
           onChange={handleCheckboxChange}
           checked={player.rookieOfTheYear}
         />
